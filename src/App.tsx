@@ -1,12 +1,8 @@
-import { Body } from "./Body";
-import Layout from "./Layout";
+import ProductPage from "./pages/ProductPage";
+import FeaturePage from "./pages/FeaturePage";
 
 function App() {
-    return (
-        <Layout>
-            <Body />
-        </Layout>
-    );
+    return <FeaturePage />;
 }
 
 export default App;
